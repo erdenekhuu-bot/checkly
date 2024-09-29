@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <main className="w-full h-full">
       <Stack>
-        <header className="p-4 flex justify-between bg-white">
+        <header className="fixed w-full z-10 p-4 flex justify-between bg-white">
           <div>
             <b className="text-[#14ba1b] text-[30px]">checkly</b>
           </div>
@@ -32,7 +32,7 @@ export default function Home() {
             </button>
           </div>
         </header>
-        <section className="">section 2</section>
+        <section className="z-0 bg-cover h-[800px] bg-[url('images/wallpaper-1.jpg')] flex justify-center items-center"></section>
         <footer></footer>
       </Stack>
     </main>
