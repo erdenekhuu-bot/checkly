@@ -8,7 +8,7 @@ export default function Home() {
     <Stack>
       <Header />
       <section className="z-0 bg-cover h-[800px] bg-[url('images/wallpaper-1.jpg')] flex justify-center items-center">
-        <div className="inset-0 bg-white opacity-70 z-0"></div>
+        <div className="absolute h-[800px] inset-0 bg-white opacity-70 z-0"></div>
         <div className="flex justify-center items-center z-10">
           <div className="text-center">
             <div>
